@@ -111,3 +111,31 @@
     -o-transition: .3s all ease-out;
     transition: .3s all ease-out;
   }
+
+
+
+
+
+  .align-items-stretch {
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img-about {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    .img {
+        /* display: block; */
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+}
