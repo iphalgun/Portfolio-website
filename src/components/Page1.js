@@ -7,6 +7,10 @@ function Page1 (){
     //     getWindowHeight()
     // },[window.innerHeight])
 
+    useEffect(() => {
+        setBrowserHeight(window.innerHeight.toString())
+    }, [])
+
     const getWindowHeight = () => {
         let height = window.innerHeight;
         // setBrowserHeight(height)
@@ -37,9 +41,12 @@ function Page1 (){
                 <div className="sub-content" style={{height: browserHeight+"px"}}>
                     <div className="col-lg-8 col-md-6">
                         <div className="name-div">
-                            <span class="subheading">Hey! I am</span>
+                            <span className="subheading">Hey! I am</span>
                             <h1 className="heading">Phalgun Mittal</h1>
-                            <h2 className="base">I'm a Front end Developer</h2>
+                            {/* <h2 className="base">I'm a Front end Developer</h2> */}
+                            <div className="typewriter">
+                                <div className="typewriter-text">I'm a Software Engineer.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
