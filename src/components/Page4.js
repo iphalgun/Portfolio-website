@@ -1,0 +1,72 @@
+export default function Page4(){
+    return(
+        <div>
+            <section class="ftco-section ftco-project" id="projects-section">
+<div class="container-fluid px-md-0">
+<div class="row no-gutters justify-content-center pb-5">
+<div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
+<h1 class="big big-2">Projects</h1>
+<h2 class="mb-4">Our Projects</h2>
+<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+</div>
+</div>
+<div class="row no-gutters">
+<div class="col-md-4">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated" style={{backgroundColor:"red"}}>
+{/* <div class="overlay"></div> */}
+<div class="text text-center p-4">
+<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+<span>Web Design</span>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated" style={{backgroundColor:"red"}}>
+{/* <div class="overlay"></div> */}
+<div class="text text-center p-4">
+<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+<span>Web Design</span>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated" style={{backgroundColor:"red"}}>
+{/* <div class="overlay"></div> */}
+<div class="text text-center p-4">
+<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+<span>Web Design</span>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated" style={{backgroundColor:"red"}}>
+{/* <div class="overlay"></div> */}
+<div class="text text-center p-4">
+<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+<span>Web Design</span>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated" style={{backgroundColor:"red"}}>
+{/* <div class="overlay"></div> */}
+<div class="text text-center p-4">
+<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+<span>Web Design</span>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated" style={{backgroundColor:"yellow"}}>
+{/* <div class="overlay"></div> */}
+<div class="text text-center p-4">
+<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+<span>Web Design</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+    )}
