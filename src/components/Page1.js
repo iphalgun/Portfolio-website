@@ -45,7 +45,7 @@ function Page1 (){
                             <h1 className="heading">Phalgun Mittal</h1>
                             {/* <h2 className="base">I'm a Front end Developer</h2> */}
                             <div className="typewriter">
-                                <div className="typewriter-text">I'm a Software Engineer.</div>
+                                <div className="typewriter-text">I'm a Software Engineer!</div>
                             </div>
                         </div>
                     </div>
