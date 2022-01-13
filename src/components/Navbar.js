@@ -34,7 +34,7 @@ function Navbar() {
         // <React.Fragment>
             <div id="navbar" className="navbar-div">
                 <div className="navbar-items">
-                    <div className="navbar-brand">
+                    <div className="navbar-brand p-0">
                         <p>Phalgun</p> 
                     </div>
                     <div className="navbar-list">
